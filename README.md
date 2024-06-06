@@ -1,5 +1,5 @@
 # Treinamento de Ransomware
-
+![Ransom Image](./ransom.png)
 ## Visão Geral
 
 <p>Este projeto é um aplicativo de console projetado para fins de treinamento de ransomware. Ele demonstra processos de criptografia, descriptografia e extração usando um cenário simulado de ransomware.</p>
