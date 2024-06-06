@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34902.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ransomware_Training", "Ransomware_Training\Ransomware_Training.csproj", "{0705E7E4-9B70-48F3-8773-A7352F9D52C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0705E7E4-9B70-48F3-8773-A7352F9D52C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0705E7E4-9B70-48F3-8773-A7352F9D52C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0705E7E4-9B70-48F3-8773-A7352F9D52C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0705E7E4-9B70-48F3-8773-A7352F9D52C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9F35FED-8898-4CF0-A51F-90AA125A6BD2}
+	EndGlobalSection
+EndGlobal
