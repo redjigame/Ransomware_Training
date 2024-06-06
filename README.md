@@ -9,14 +9,14 @@
 <ul>
   <li>Criptografa e descriptografa arquivos usando criptografia AES.</li>
   <li>Solicita ao usuário uma senha para descriptografar os arquivos.</li>
-  <li>Exibe uma mensagem de resgate com instruções e uma bandeira pirata.</li>
+  <li>Exibe uma mensagem de resgate com instruções.</li>
   <li>Usa um arquivo XML para armazenar o status da criptografia e do pagamento.</li>
 </ul>
 
 ## Pré-requisitos
 
 <ul>
-  <li><a href="https://dotnet.microsoft.com/download">SDK do .NET</a> (versão 5.0 ou posterior)</li>
+  <li><a href="https://dotnet.microsoft.com/download">SDK do .NET</a> (versão 8.0 ou posterior)</li>
   <li>Visual Studio ou qualquer IDE compatível com C#</li>
 </ul>
 
@@ -34,7 +34,7 @@ cd ransomware-training</code></pre>
 ## Configuração
 
 <ol>
-  <li>Crie um arquivo <code>status.xml</code> no diretório <code>bin\Debug\net5.0</code> (ou build apropriado) com o seguinte conteúdo:
+  <li>Crie um arquivo <code>status.xml</code> no diretório <code>bin\Debug\net8.0</code> (ou build apropriado) com o seguinte conteúdo:
     <pre><code>&lt;status&gt;
     &lt;isPayed&gt;false&lt;/isPayed&gt;
     &lt;isEncrypted&gt;false&lt;/isEncrypted&gt;
@@ -64,10 +64,13 @@ cd ransomware-training</code></pre>
   <li><code>Program.cs</code>: O ponto de entrada principal para o aplicativo. Lida com os processos de criptografia e descriptografia.</li>
   <li><code>SecurityManager.cs</code>: Gerencia a leitura e atualização do status da criptografia no arquivo XML.</li>
   <li><code>RansomMessage.cs</code>: Contém a mensagem de resgate com arte ASCII.</li>
-  <li><code>ConsoleColorizer.cs</code>: Uma utilidade para colorir a saída de texto no console.</li>
 </ul>
 
 ## Aviso de Segurança
 
 <p>Este projeto é destinado apenas para fins educacionais. Não deve ser usado para quaisquer atividades maliciosas. Sempre garanta que você tenha autorização adequada antes de executar esse tipo de software.</p>
+
+## Disclaimer anti Script-Kiddies
+
+<p><strong>Atenção:</strong> Este programa não possui técnicas de evasão e, portanto, não pode ser usado tecnicamente para fins maliciosos. Ele é projetado apenas para fins educacionais e de pesquisa, sem a capacidade de evitar detecções por software de segurança. O uso inadequado deste código é de sua exclusiva responsabilidade. Esteja ciente das leis de sua jurisdição e nunca use este código para violar a privacidade, segurança ou direitos de qualquer indivíduo ou organização.</p>
 
